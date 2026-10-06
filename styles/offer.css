@@ -11,6 +11,11 @@
   font-optical-sizing: auto;
 }
 
+.inter-font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
 /* /banner section styles */
 .banner {
   width: 100%;
@@ -52,4 +57,41 @@
   font-weight: bold;
   font-size: 4.5rem;
   opacity: 100%;
+}
+
+/* discount section styles */
+.discount {
+  max-width: 803px;
+  height: 806px;
+  margin: 20px 259px;
+}
+
+.discount-container{
+  text-align: center;
+}
+
+.discount-title{
+  font-weight: bold;
+  font-size: 5.50rem;
+  color: rgba(255, 0, 0, 1);
+  margin-bottom: 48px;
+  opacity: 100%;
+}
+
+.discount-descrip {
+  font-weight: 500;
+  font-size: 1.50rem;
+  color: rgba(255, 0, 0, 1);
+  margin-bottom: 16px;
+}
+
+.discount-sub-descrip {
+  font-weight: bold;
+  font-size: 3rem;
+  color: rgba(7, 2, 17, 1);
+  margin-bottom: 48px;
+}
+
+.discount-container img{
+    width: 100%;
 }
