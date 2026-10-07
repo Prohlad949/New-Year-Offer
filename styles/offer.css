@@ -249,3 +249,44 @@
     height: 140px;
     width: 140px;
 }
+
+/* our portfolio section styles */
+.our-portfolio{
+    max-width: 1320px;
+    margin: 20px auto;
+}
+
+/* small styles */
+.our-portfolio .sub-title{
+    font-weight: 500;
+    font-size: 1.50rem;
+    color: rgba(255, 0, 0, 1);
+    margin-bottom: 16px;
+}
+
+/* main heading */
+.our-portfolio .title{
+    font-weight: bold;
+    font-size: 3rem;
+    color: rgba(7, 2, 17, 1);
+    margin-bottom: 22px;
+}
+
+/* description */
+.our-portfolio .description{
+    font-size: 1.25rem;
+    color: rgba(7, 2, 17, 0.6);
+    margin-bottom: 48px;
+}
+
+/* ima section styles */
+.image-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+.image-container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
