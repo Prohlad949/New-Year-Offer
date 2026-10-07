@@ -97,23 +97,23 @@
 }
 
 /* welcome party section */
-.welcome-party{
-    max-width: 1320px;
-    height: 500px;
-    margin: 20px auto;
-    /* position: relative; */
-    /* overflow: hidden; */
-    border-radius: 16px;
-    background-image:url(../images/Vectorrr.png);
-    background-size: cover;
-    background-position: center;
+.welcome-party {
+  max-width: 1320px;
+  height: 500px;
+  margin: 20px auto;
+  /* position: relative; */
+  /* overflow: hidden; */
+  border-radius: 16px;
+  background-image: url(../images/Vectorrr.png);
+  background-size: cover;
+  background-position: center;
 }
-.welcome-container{
-    display: flex;
-    justify-content: center;
+.welcome-container {
+  display: flex;
+  justify-content: center;
 }
 
- .content h2 {
+.content h2 {
   font-weight: 700px;
   font-size: 4rem;
   color: rgba(255, 255, 255, 1);
@@ -138,4 +138,42 @@
   width: 300px;
   height: 400px;
   margin: 60px 133px 65px 30px;
+}
+
+/* invaitation card styles */
+.events-card {
+  max-width: 1320px;
+  height: 482px;
+  margin: 120px auto;
+  background: lightpink;
+  border-radius: 16px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.card-details p {
+  font-size: 2rem;
+  font-weight: 600px;
+  color: rgba(7, 2, 17, 1);
+  margin-bottom: 48px;
+}
+
+.event-span {
+  color: rgba(255, 0, 0, 1);
+}
+
+.btn-card {
+  margin-top: 48px;
+  padding: 16px 32px;
+  background-color: rgba(255, 0, 0, 1);
+  color: rgba(255, 255, 255, 1);
+  border-radius: 8px;
+  font-size: 1.25rem;
+  font-weight: 700px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-card:hover {
+  background-color: #d60000;
 }
