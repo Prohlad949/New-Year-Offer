@@ -177,3 +177,75 @@
 .btn-card:hover {
   background-color: #d60000;
 }
+
+/* coming section styles */
+/* main section styles */
+.offer-section {
+  width: 1320px;
+  height: 463px;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+/* left content styles */
+.left-content {
+  width: 393px;
+  margin-right: 50px;
+}
+
+.left-content span {
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: rgba(255, 0, 0, 1);
+  margin-bottom: 16px;
+}
+
+.left-content h3 {
+  font-weight: bold;
+  font-size: 3rem;
+  color: rgba(7, 2, 17, 1);
+  margin-bottom: 22px;
+}
+
+.left-content p {
+  font-weight: 400px;
+  font-size: 1.25rem;
+  color: rgba(7, 2, 17, 0.6);
+}
+
+/* middle content styles  */
+.circle-image {
+  width: 300px;
+  height: 300px;
+  border: 8px solid red;
+  border-radius: 50%;
+  padding: 20px;
+  /* margin: 0px 118px 0px 70px; */
+}
+
+.circle-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+/* right content styles */
+.right-content {
+    width: 270px;
+    margin-left: 80px;
+}
+.right-content h3{
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgba(255, 0, 0, 1);
+}
+.right-content p{
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: rgba(7, 2, 17, 0.6);
+}
+.right-content img{
+    height: 140px;
+    width: 140px;
+}
