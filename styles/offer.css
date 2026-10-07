@@ -19,7 +19,7 @@
 /* /banner section styles */
 .banner {
   width: 100%;
-  max-width: 1140px;
+  max-width: 1320px;
   height: 600px;
   margin: 20px auto;
   margin-bottom: 100px;
@@ -66,13 +66,13 @@
   margin: 20px 259px;
 }
 
-.discount-container{
+.discount-container {
   text-align: center;
 }
 
-.discount-title{
+.discount-title {
   font-weight: bold;
-  font-size: 5.50rem;
+  font-size: 5.5rem;
   color: rgba(255, 0, 0, 1);
   margin-bottom: 48px;
   opacity: 100%;
@@ -80,7 +80,7 @@
 
 .discount-descrip {
   font-weight: 500;
-  font-size: 1.50rem;
+  font-size: 1.5rem;
   color: rgba(255, 0, 0, 1);
   margin-bottom: 16px;
 }
@@ -92,6 +92,50 @@
   margin-bottom: 48px;
 }
 
-.discount-container img{
-    width: 100%;
+.discount-container img {
+  width: 100%;
+}
+
+/* welcome party section */
+.welcome-party{
+    max-width: 1320px;
+    height: 500px;
+    margin: 20px auto;
+    /* position: relative; */
+    /* overflow: hidden; */
+    border-radius: 16px;
+    background-image:url(../images/Vectorrr.png);
+    background-size: cover;
+    background-position: center;
+}
+.welcome-container{
+    display: flex;
+    justify-content: center;
+}
+
+ .content h2 {
+  font-weight: 700px;
+  font-size: 4rem;
+  color: rgba(255, 255, 255, 1);
+  width: 642px;
+  margin: 123px 94px 24px 120px;
+}
+.content p {
+  font-size: 1.2rem;
+  width: 697px;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 24px 34px 32px 120px;
+}
+.btn {
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: rgba(255, 255, 255, 1);
+  margin: 48px 596px 142px 152px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.year img {
+  width: 300px;
+  height: 400px;
+  margin: 60px 133px 65px 30px;
 }
